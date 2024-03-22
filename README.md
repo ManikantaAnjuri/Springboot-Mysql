@@ -1,5 +1,5 @@
-# springboot-crud-k8s
-# springboot-crud-k8s
+# springboot-MySQL
+
 Create a JAR file out of source code.
 To Create JAR file, we need to skip the tests associated with the code using the below command. Because it is xtrying to connect to database while building the JAR File, in our case it is i.e.,database is running on Conatiner.
 
