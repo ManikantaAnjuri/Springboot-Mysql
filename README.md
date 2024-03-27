@@ -3,6 +3,11 @@
 Create a JAR file out of source code.
 To Create JAR file, we need to skip the tests associated with the code using the below command. Because it is xtrying to connect to database while building the JAR File, in our case it is i.e.,database is running on Conatiner.
 
+Make Sure to Set the below EnVironment Variables, while building the docker Jar File.
+{DB_HOST}, {DB_NAME}
+{DB_USERNAME}
+{DB_PASSWORD}
+
 1. mvn clean package -DskipTests -U
     or
    we can update the same in docker instead of building JAR file separately.
